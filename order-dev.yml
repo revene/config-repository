@@ -20,5 +20,4 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8000/eureka/
-env:
-  dev
+env: dev
