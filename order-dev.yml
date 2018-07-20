@@ -15,9 +15,4 @@ eureka:
 #    instance-id: order1
     lease-expiration-duration-in-seconds: 90
     lease-renewal-interval-in-seconds: 20
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://localhost:8000/eureka/
 env: dev
